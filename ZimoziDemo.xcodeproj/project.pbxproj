@@ -3,19 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		162DA94FF869D168A8D7EA28 /* Pods_ZimoziDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5559277585E2A858A339B0FD /* Pods_ZimoziDemo.framework */; };
 		D61BE9DF25E99C2100633D32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BE9DE25E99C2100633D32 /* AppDelegate.swift */; };
 		D61BE9E125E99C2100633D32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BE9E025E99C2100633D32 /* SceneDelegate.swift */; };
 		D61BE9E325E99C2100633D32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BE9E225E99C2100633D32 /* ViewController.swift */; };
 		D61BE9E625E99C2100633D32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61BE9E425E99C2100633D32 /* Main.storyboard */; };
 		D61BE9E825E99C2400633D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61BE9E725E99C2400633D32 /* Assets.xcassets */; };
 		D61BE9EB25E99C2400633D32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61BE9E925E99C2400633D32 /* LaunchScreen.storyboard */; };
+		D61BEA1C25E99CFE00633D32 /* AppUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BEA1625E99CFE00633D32 /* AppUserDefaults.swift */; };
+		D61BEA1D25E99CFE00633D32 /* AppUserDefaults+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BEA1725E99CFE00633D32 /* AppUserDefaults+Key.swift */; };
+		D61BEA1E25E99CFE00633D32 /* Webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BEA1825E99CFE00633D32 /* Webservices.swift */; };
+		D61BEA1F25E99CFE00633D32 /* Webservice+EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BEA1925E99CFE00633D32 /* Webservice+EndPoints.swift */; };
+		D61BEA2125E99CFE00633D32 /* AppNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BEA1B25E99CFE00633D32 /* AppNetworking.swift */; };
+		D61BEA2525E99D7E00633D32 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BEA2425E99D7E00633D32 /* Utilities.swift */; };
+		D61BEA3325E99E4900633D32 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BEA3225E99E4900633D32 /* AppConstants.swift */; };
+		D61BEA3625E99F9E00633D32 /* AlertBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BEA3525E99F9E00633D32 /* AlertBuilder.swift */; };
+		D61BEA4A25E9A8F600633D32 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BEA4925E9A8F600633D32 /* MainController.swift */; };
+		D61BEA5725E9B18C00633D32 /* Cameras.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BEA5125E9B18B00633D32 /* Cameras.swift */; };
+		D61BEA5825E9B18C00633D32 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BEA5225E9B18B00633D32 /* Items.swift */; };
+		D61BEA5925E9B18C00633D32 /* MainViewControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BEA5325E9B18B00633D32 /* MainViewControllerModel.swift */; };
+		D61BEA5A25E9B18C00633D32 /* Api_info.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BEA5425E9B18B00633D32 /* Api_info.swift */; };
+		D61BEA5B25E9B18C00633D32 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BEA5525E9B18C00633D32 /* Location.swift */; };
+		D61BEA5C25E9B18C00633D32 /* Image_metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BEA5625E9B18C00633D32 /* Image_metadata.swift */; };
+		D61BEA6125E9C22F00633D32 /* map-drawing-pin-clip-art-png-favpng-Kun5RxqQpnjJhamZ9aztsSGh2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D61BEA6025E9C22F00633D32 /* map-drawing-pin-clip-art-png-favpng-Kun5RxqQpnjJhamZ9aztsSGh2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182621592735FDBD27757017 /* Pods-ZimoziDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZimoziDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZimoziDemo/Pods-ZimoziDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5559277585E2A858A339B0FD /* Pods_ZimoziDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZimoziDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		710AAB069FE2C584FECA7889 /* Pods-ZimoziDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZimoziDemo.release.xcconfig"; path = "Target Support Files/Pods-ZimoziDemo/Pods-ZimoziDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D61BE9DB25E99C2100633D32 /* ZimoziDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZimoziDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D61BE9DE25E99C2100633D32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D61BE9E025E99C2100633D32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +44,22 @@
 		D61BE9E725E99C2400633D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D61BE9EA25E99C2400633D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D61BE9EC25E99C2400633D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D61BEA1625E99CFE00633D32 /* AppUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUserDefaults.swift; sourceTree = "<group>"; };
+		D61BEA1725E99CFE00633D32 /* AppUserDefaults+Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppUserDefaults+Key.swift"; sourceTree = "<group>"; };
+		D61BEA1825E99CFE00633D32 /* Webservices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
+		D61BEA1925E99CFE00633D32 /* Webservice+EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Webservice+EndPoints.swift"; sourceTree = "<group>"; };
+		D61BEA1B25E99CFE00633D32 /* AppNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNetworking.swift; sourceTree = "<group>"; };
+		D61BEA2425E99D7E00633D32 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		D61BEA3225E99E4900633D32 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		D61BEA3525E99F9E00633D32 /* AlertBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertBuilder.swift; sourceTree = "<group>"; };
+		D61BEA4925E9A8F600633D32 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		D61BEA5125E9B18B00633D32 /* Cameras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cameras.swift; sourceTree = "<group>"; };
+		D61BEA5225E9B18B00633D32 /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		D61BEA5325E9B18B00633D32 /* MainViewControllerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewControllerModel.swift; sourceTree = "<group>"; };
+		D61BEA5425E9B18B00633D32 /* Api_info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api_info.swift; sourceTree = "<group>"; };
+		D61BEA5525E9B18C00633D32 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		D61BEA5625E9B18C00633D32 /* Image_metadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image_metadata.swift; sourceTree = "<group>"; };
+		D61BEA6025E9C22F00633D32 /* map-drawing-pin-clip-art-png-favpng-Kun5RxqQpnjJhamZ9aztsSGh2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "map-drawing-pin-clip-art-png-favpng-Kun5RxqQpnjJhamZ9aztsSGh2.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				162DA94FF869D168A8D7EA28 /* Pods_ZimoziDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +79,8 @@
 			children = (
 				D61BE9DD25E99C2100633D32 /* ZimoziDemo */,
 				D61BE9DC25E99C2100633D32 /* Products */,
+				EED33770269E407BF5C524F1 /* Pods */,
+				EF64F9C5590FE7A1B008E9DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +97,86 @@
 			children = (
 				D61BE9DE25E99C2100633D32 /* AppDelegate.swift */,
 				D61BE9E025E99C2100633D32 /* SceneDelegate.swift */,
-				D61BE9E225E99C2100633D32 /* ViewController.swift */,
+				D61BEA1525E99CFE00633D32 /* Services */,
+				D61BEA4825E9A8E400633D32 /* Controller */,
+				D61BEA4D25E9B16D00633D32 /* Model */,
+				D61BEA4625E9A2BE00633D32 /* View */,
+				D61BEA2725E99DAF00633D32 /* Extra */,
 				D61BE9E425E99C2100633D32 /* Main.storyboard */,
 				D61BE9E725E99C2400633D32 /* Assets.xcassets */,
+				D61BEA6025E9C22F00633D32 /* map-drawing-pin-clip-art-png-favpng-Kun5RxqQpnjJhamZ9aztsSGh2.jpg */,
 				D61BE9E925E99C2400633D32 /* LaunchScreen.storyboard */,
 				D61BE9EC25E99C2400633D32 /* Info.plist */,
 			);
 			path = ZimoziDemo;
+			sourceTree = "<group>";
+		};
+		D61BEA1525E99CFE00633D32 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D61BEA1625E99CFE00633D32 /* AppUserDefaults.swift */,
+				D61BEA1725E99CFE00633D32 /* AppUserDefaults+Key.swift */,
+				D61BEA1825E99CFE00633D32 /* Webservices.swift */,
+				D61BEA1925E99CFE00633D32 /* Webservice+EndPoints.swift */,
+				D61BEA1B25E99CFE00633D32 /* AppNetworking.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D61BEA2725E99DAF00633D32 /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				D61BEA3225E99E4900633D32 /* AppConstants.swift */,
+				D61BEA3525E99F9E00633D32 /* AlertBuilder.swift */,
+				D61BEA2425E99D7E00633D32 /* Utilities.swift */,
+			);
+			path = Extra;
+			sourceTree = "<group>";
+		};
+		D61BEA4625E9A2BE00633D32 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D61BE9E225E99C2100633D32 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D61BEA4825E9A8E400633D32 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D61BEA4925E9A8F600633D32 /* MainController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D61BEA4D25E9B16D00633D32 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D61BEA5425E9B18B00633D32 /* Api_info.swift */,
+				D61BEA5125E9B18B00633D32 /* Cameras.swift */,
+				D61BEA5625E9B18C00633D32 /* Image_metadata.swift */,
+				D61BEA5225E9B18B00633D32 /* Items.swift */,
+				D61BEA5325E9B18B00633D32 /* MainViewControllerModel.swift */,
+				D61BEA5525E9B18C00633D32 /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EED33770269E407BF5C524F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				182621592735FDBD27757017 /* Pods-ZimoziDemo.debug.xcconfig */,
+				710AAB069FE2C584FECA7889 /* Pods-ZimoziDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF64F9C5590FE7A1B008E9DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5559277585E2A858A339B0FD /* Pods_ZimoziDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D61BE9EF25E99C2400633D32 /* Build configuration list for PBXNativeTarget "ZimoziDemo" */;
 			buildPhases = (
+				6A94197D9FEB335581E5FC3D /* [CP] Check Pods Manifest.lock */,
 				D61BE9D725E99C2100633D32 /* Sources */,
 				D61BE9D825E99C2100633D32 /* Frameworks */,
 				D61BE9D925E99C2100633D32 /* Resources */,
+				5BB3442F7489F96DD11A09FF /* [CP] Embed Pods Frameworks */,
+				C8EA5CF80FA57B310E70287C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,20 +241,95 @@
 			files = (
 				D61BE9EB25E99C2400633D32 /* LaunchScreen.storyboard in Resources */,
 				D61BE9E825E99C2400633D32 /* Assets.xcassets in Resources */,
+				D61BEA6125E9C22F00633D32 /* map-drawing-pin-clip-art-png-favpng-Kun5RxqQpnjJhamZ9aztsSGh2.jpg in Resources */,
 				D61BE9E625E99C2100633D32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5BB3442F7489F96DD11A09FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZimoziDemo/Pods-ZimoziDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZimoziDemo/Pods-ZimoziDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZimoziDemo/Pods-ZimoziDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A94197D9FEB335581E5FC3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZimoziDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8EA5CF80FA57B310E70287C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZimoziDemo/Pods-ZimoziDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZimoziDemo/Pods-ZimoziDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZimoziDemo/Pods-ZimoziDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D61BE9D725E99C2100633D32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D61BEA5825E9B18C00633D32 /* Items.swift in Sources */,
+				D61BEA1E25E99CFE00633D32 /* Webservices.swift in Sources */,
+				D61BEA1C25E99CFE00633D32 /* AppUserDefaults.swift in Sources */,
+				D61BEA5B25E9B18C00633D32 /* Location.swift in Sources */,
+				D61BEA1D25E99CFE00633D32 /* AppUserDefaults+Key.swift in Sources */,
+				D61BEA5925E9B18C00633D32 /* MainViewControllerModel.swift in Sources */,
+				D61BEA5725E9B18C00633D32 /* Cameras.swift in Sources */,
 				D61BE9E325E99C2100633D32 /* ViewController.swift in Sources */,
+				D61BEA5A25E9B18C00633D32 /* Api_info.swift in Sources */,
+				D61BEA4A25E9A8F600633D32 /* MainController.swift in Sources */,
 				D61BE9DF25E99C2100633D32 /* AppDelegate.swift in Sources */,
+				D61BEA5C25E9B18C00633D32 /* Image_metadata.swift in Sources */,
+				D61BEA3625E99F9E00633D32 /* AlertBuilder.swift in Sources */,
+				D61BEA1F25E99CFE00633D32 /* Webservice+EndPoints.swift in Sources */,
+				D61BEA2525E99D7E00633D32 /* Utilities.swift in Sources */,
 				D61BE9E125E99C2100633D32 /* SceneDelegate.swift in Sources */,
+				D61BEA2125E99CFE00633D32 /* AppNetworking.swift in Sources */,
+				D61BEA3325E99E4900633D32 /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +473,7 @@
 		};
 		D61BE9F025E99C2400633D32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 182621592735FDBD27757017 /* Pods-ZimoziDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +493,7 @@
 		};
 		D61BE9F125E99C2400633D32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710AAB069FE2C584FECA7889 /* Pods-ZimoziDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
